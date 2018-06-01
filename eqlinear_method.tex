@@ -13,7 +13,7 @@ The most common manifestations of inelastic soil behavior involve the reduction 
 
 \subsection{Effective Strain}
 
-Determination of effective strain is the most important part of equivalent linear method. In 1D simulations the effective strain is related to the shear strain of the elements (or soil layer in case of frequency domain analysis) with some modification factor. The maximum strain level of typical earthquake motion can happen at a few spikes in the record. Therefore, the maximum strain level should not be dominant value in determining the effective strain. In literature effective shear strain is defined as 50 ~ 70\% of the maximum shear strain. This value mostly is considered as 65\% \citep{Kramer1996geotechnical}.  \citet{Idriss1992} proposed to use 
+Determination of effective strain is the most important part of application of equivalent linear method in 3D ground motion simulation. In 1D simulations the effective strain is related to the shear strain of the elements (or soil layer in case of frequency domain analysis) with some modification factor. The maximum strain level of typical earthquake motion can happen at a few spikes in the record. Therefore, the maximum strain level should not be dominant value in determining the effective strain. In literature effective shear strain is defined as 50 ~ 70\% of the maximum shear strain. This value mostly is considered as 65\% \citep{Kramer1996geotechnical}.  \citet{Idriss1992} proposed to use 
 
 \begin{equation}
 R_{\gamma} = \frac{M-1}{10}
@@ -37,7 +37,7 @@ where $\ddot{y}(t)$ is the control motion and RMS is root mean square function. 
  \gamma_{max}^{2} = (\epsilon_{x}-\epsilon{y})^2 + \gamma_{xy}^{2}
  \end{equation}
  
-where $x$ and $y$ present horizontal and vertical components, respectively.  The effective strain level proposed by \citet{Lysmer1975} considers only two components. However, in truly 3D simulation all three components should be considered. In this study we consider the following equation for determination of effective strain.
+where $x$ and $y$ present horizontal and vertical components, respectively.  The effective strain level proposed by \citet{Lysmer1975} considers only two components. However, in fully 3D simulation all three components should be considered. In this study we consider the following equation for determination of effective strain.
 
  \begin{equation}
  \gamma_{max} = G(A \gamma_{xy}^{2} + B\gamma_{xz}^{2} + C\gamma_{yz}^{2} + D(\epsilon_{x}-\epsilon_{y})^2 +E(\epsilon_{x}-\epsilon_{z})^2+F(\epsilon_{y}-\epsilon_{z})^2)^H

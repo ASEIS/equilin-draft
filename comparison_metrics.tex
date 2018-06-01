@@ -1,6 +1,6 @@
 \section{Comparison Metrics}
 
-In this study response spectra is the most important factor to choose the best model. As we discussed the equivalent linear method is a linear process, therefore, the final displacement will not be accurate specially when we have a permanent displacement. Therefore, acceleration and response spectra would be the best options. A simple method to compute the response spectra residuals is subtracting two data and divide them by one of them. 
+In this study response spectra is the most important factor to choose the best model (see Khoshnevis and Taborda 2018 a,b). As we discussed the equivalent linear method is a linear process, therefore, the final displacement will not be accurate specially when we have a permanent displacement. Therefore, acceleration and response spectra would be the best options. A simple method to compute the response spectra residuals is subtracting two data and divide them by one of them. 
 
 
 \begin{equation}
@@ -27,7 +27,7 @@ e_{SA}=\frac{1}{n}\sqrt{\sum_{i=1}^{n}[\frac{SA_o(T_i)-SA_p(T_i)}{SA_o(T_i)}]^2}
 
 This metric also represents positive residual values. 
 
-\citet{Assimaki2012} and \citet{Carlton2016comparison} used the following equation to measure of misfit between two $SA$s:
+\citet{Assimaki2012} and \citet{Carlton2016comparison} (and also broadband platform!!?) used the following equation to measure of misfit between two $SA$s:
 
 \begin{equation}
 e_{SA}^{non}=\mu(e_{SAi})=\mu(log(\frac{SA_{i}^{non}}{SA_{i}^{eq}}))
@@ -39,7 +39,7 @@ This metric can represent a good variation of residuals and does not saturate. A
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{figures/pdf/response_spectra_sensitivity.pdf}
-    \caption{}
+    \caption{a,b,c) Different methods to estimate the residuals. d) Shows how simple residual is easily saturated}
     \label{fig:response_spectra_sensitivity}
 \end{figure}
 
